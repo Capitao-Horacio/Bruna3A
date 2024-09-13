@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+            <title>O Fabuloso destino de João</title>
+        </head>
+    <body>
+        <main>
+            <div class="passo ativo" id="passo-1">
+                <p>Isabela acorda e vai para o trabalho. No caminho, ela nota um gatinho. Ela fará carinho?</p>
+                <button class="btn-proximo" data-proximo="2A">Sim</button>
+                <button class="btn-proximo" data-proximo="2B">Não</button>
+            </div>
+            
+            <div class="passo" id="passo-2A">
+                <p>Isabela se atrasa para a biblioteca. Ela decide comer algo?</p>
+                <button class="btn-proximo" data-proximo="3A">Sim</button>
+                <button class="btn-proximo" data-proximo="3B">Não</button>
+            </div>
+            
+            <div class="passo" id="passo-2B">
+                <p>Isabela chega à biblioteca no horário.</p>
+                <button class="btn-proximo" data-proximo="3C">Estudar até o horário de sair</button>
+                <button class="btn-proximo" data-proximo="3D">Não consegue entrar na biblioteca</button>
+            </div>
+            
+            <div class="passo" id="passo-3A">
+                <p>Escolher onde comer:</p>
+                <button class="btn-proximo" data-proximo="4A">Cafeteria</button>
+                <button class="btn-proximo" data-proximo="4B">Lanchonete</button>
+            </div>
+            
+            <div class="passo" id="passo-3B">
+                <p>Isabela chega à biblioteca no horário.</p>
+                <button class="btn-proximo" data-proximo="3C">Estudar até o horário de sair</button>
+                <button class="btn-proximo" data-proximo="3D">Não consegue entrar na biblioteca</button>
+            </div>
+            
+            <div class="passo" id="passo-3C">
+                <p>Após sair da biblioteca, Isabela vai para a casa do namorado.</p>
+                <button class="btn-proximo" data-proximo="4C">Ir para a festa</button>
+                <button class="btn-proximo" data-proximo="4D">Não ir à festa</button>
+            </div>
+            
+            <div class="passo" id="passo-3D">
+                <p>Isabela não consegue entrar na biblioteca e vai para a casa do namorado.</p>
+                <button class="btn-proximo" data-proximo="4C">Ir para a festa</button>
+                <button class="btn-proximo" data-proximo="4D">Não ir à festa</button>
+            </div>
+            
+            <div class="passo" id="passo-4A">
+                <p>Isabela come com calma e continua o dia.</p>
+            </div>
+            
+            <div class="passo" id="passo-4B">
+                <p>Isabela come algo rápido e segue para o próximo compromisso.</p>
+            </div>
+            
+            <div class="passo" id="passo-4C">
+                <p>Se foi para a festa, vai pela estrada ou por um atalho?</p>
+                <button class="btn-proximo" data-proximo="5A">Estrada</button>
+                <button class="btn-proximo" data-proximo="5B">Atalho</button>
+            </div>
+            
+            <div class="passo" id="passo-4D">
+                <p>Isabela decide não ir à festa e volta para casa.</p>
+                <button class="btn-proximo" data-proximo="5C">Ler</button>
+                <button class="btn-proximo" data-proximo="5D">Desenhar</button>
+            </div>
+            
+            <div class="passo" id="passo-5A">
+                <p>Isabela chega à festa, aproveita e vai embora algumas horas depois.</p>
+            </div>
+            
+            <div class="passo" id="passo-5B">
+                <p>Isabela sofre um acidente no caminho e é hospitalizada.</p>
+            </div>
+            
+            <div class="passo" id="passo-5C">
+                <p>Isabela escolhe um livro, relaxa e depois de algum tempo vai dormir.</p>
+            </div>
+            
+            <div class="passo" id="passo-5D">
+                <p>Isabela desenha para relaxar, mas sente fome e decide fazer um lanche.</p>
+                <button class="btn-proximo" data-proximo="6A">Pizza</button>
+                <button class="btn-proximo" data-proximo="6B">Lanche</button>
+            </div>
+            
+            <div class="passo" id="passo-6A">
+                <p>Isabela come uma pizza que tinha em casa e vai dormir.</p>
+            </div>
+            
+            <div class="passo" id="passo-6B">
+                <p>Isabela sai para comprar um hambúrguer.</p>
+                <button class="btn-proximo" data-proximo="6C">Comer em casa</button>
+                <button class="btn-proximo" data-proximo="6D">Encontrar algo inesperado no caminho</button>
+            </div>
+            
+            <div class="passo" id="passo-6C">
+                <p>Isabela come o hambúrguer em casa e relaxa.</p>
+            </div>
+            
+            <div class="passo" id="passo-6D">
+                <p>Isabela encontra algo inesperado no caminho, como um acidente ou outro evento.</p>
+            </div>
+            
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
